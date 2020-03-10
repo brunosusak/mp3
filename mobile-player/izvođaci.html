@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>MP3</title>
+    <link rel="stylesheet" href="pjesme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+">
+</head>
+<body>
+    <div class="music-container">
+        <div class="music-header">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"> <p>Auto glasnoća</p>
+                    <div>
+                    <!-- okrugli switch -->
+                    <label class="switch">
+                      <input type="checkbox">
+                      <div class="slider round"></div>
+                    </label></div></a>
+                
+                <a href="#">Equaliser
+                    <div class="equaliser-container">
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                  </div></a>
+                <a href="#">C</a>
+                <a href="#">D</a>
+              </div>
+              
+              <!-- za otvaranje sidebara -->
+              <span onclick="openNav()"><i class="fa fa-bars"></i> </span>
+            <div class="title"><p>Izvođači</p></div>
+            <div class="popup" onclick="myFunction()"><i class="fa fa-search"></i>
+                <div class="popuptext" id="myPopup"><input type="text" placeholder="pretraga" name="search"></div>
+              </div>
+         </div>
+    <div class="music-playlist">
+        <div class="music-menu text-center">
+            <div class="menu">
+                <ul>
+                    <li><a href="pjesme.html">Pjesme</a></li>
+                    <li><a href="albums.html">Albumi</a></li>
+                    <li><a href="izvođaci.html">Izvođači</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="music-box">
+            <div class="music-info">
+                <div class="row">
+                    <div class="column">
+                      <img src="img/amy.jfif">
+                      <img src="img/acdc.jfif">
+                      <img src="img/blink182.jfif">
+                      <img src="img/chetfaker.jfif">
+                      <img src="img/direstraits.jfif">
+                      <img src="img/iron-maiden.jfif">
+                      <img src="img/buddha.jfif">
+                      <img src="img/amy.jfif">
+                      <img src="img/acdc.jfif">
+                      <img src="img/blink182.jfif">
+                      <img src="img/chetfaker.jfif">
+                      <img src="img/direstraits.jfif">
+                      <img src="img/iron-maiden.jfif">
+                      <img src="img/buddha.jfif">
+                      <img src="img/amy.jfif">
+                      <img src="img/acdc.jfif">
+                      <img src="img/blink182.jfif">
+                      <img src="img/chetfaker.jfif">
+                      <img src="img/direstraits.jfif">
+                      <img src="img/iron-maiden.jfif">
+                      <img src="img/buddha.jfif">
+                      <img src="img/amy.jfif">
+                      <img src="img/acdc.jfif">
+                      <img src="img/blink182.jfif">
+                      <img src="img/chetfaker.jfif">
+                      <img src="img/direstraits.jfif">
+                      <img src="img/iron-maiden.jfif">
+                      <img src="img/buddha.jfif">
+                    </div>
+                   
+                    
+                  </div>
+                    
+                </div>
+                
+           
+          
+                    
+               
+        </div>
+        <div class="music-play">
+            <a href="musictrack.html">
+                
+            <div class="play-image">
+                <img src="img/chetty.jfif">
+            </div>
+
+            <div class="play-controls">
+                <div class="controls">
+                    <div class="song-name">
+                        <h5>Talk is cheap</h5>
+                        <p>Chet Faker</p>
+                    </div>
+                    <div class="play-icon">
+                        <i class="fa fa-step-backward"></i>
+                        <i class="fa fa-play"></i>
+                        <i class="fa fa-step-forward"></i>
+
+                    </div>
+                </div>
+
+                <div class="music-progress">
+                <div class="progress">
+                <div class="progress-bar">
+
+                </div>
+                </div>
+                </div>
+            </a>
+            </div>
+        </a>
+        </div>
+        </div>
+    </div>
+</div>
+<script>
+    // klik za popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      /* sidebar na 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }</script>
+</body>
+</html> 

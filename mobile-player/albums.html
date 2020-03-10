@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title>MP3</title>
+    <link rel="stylesheet" href="pjesme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+">
+</head>
+<body>
+    <div class="music-container">
+        <div class="music-header">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"> <p>Auto glasnoća</p>
+                    <div>
+                    <!-- okrugli switch -->
+                    <label class="switch">
+                      <input type="checkbox">
+                      <div class="slider round"></div>
+                    </label></div></a>
+                
+                <a href="#">Equaliser
+                    <div class="equaliser-container">
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                    <ol class="equaliser-column">
+                      <li class="colour-bar"></li>
+                    </ol>
+                  </div></a>
+                <a href="#">C</a>
+                <a href="#">D</a>
+              </div>
+              
+              <!-- za otvaranje sidebara -->
+              <span onclick="openNav()"><i class="fa fa-bars"></i> </span>
+            <div class="title"><p>Albumi</p></div>
+            <div class="popup" onclick="myFunction()"><i class="fa fa-search"></i>
+                <div class="popuptext" id="myPopup"><input type="text" placeholder="pretraga" name="search"></div>
+              </div>
+         </div>
+    <div class="music-playlist">
+        <div class="music-menu text-center">
+            <div class="menu">
+                <ul>
+                    <li><a href="pjesme.html">Pjesme</a></li>
+                    <li><a href="albums.html">Albumi</a></li>
+                    <li><a href="izvođaci.html">Izvođači</a></li>
+                    
+
+                </ul>
+            </div>
+        </div>
+        <div class="music-box">
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/acdc.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>AC/DC</h6>
+                      <p>Highway to hell</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/amy.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>Amy Winehouse</h6>
+                      <p>Frank(2003)</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+
+            
+
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/blink182.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>Blink 182</h6>
+                      <p>Buddha(1994)</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/chetfaker.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>Chet Faker</h6>
+                      <p>Built in glass(2014)</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/direstraits.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>Dire Straits</h6>
+                      <p>Brothers in arms(1985)</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+            <div class="music-info">
+                <div class="music-img">
+                    <img src="img/iron-maiden.jfif">
+                </div>
+                <div class="music-name">
+                    <h6>Iron maiden</h6>
+                      <p>Fear of the dark(1992)</p>
+                    
+                </div>
+                <i class="fa fa-angle-right"></i>
+            </div><hr>
+            
+           
+          
+                    
+               
+        </div>
+        <div class="music-play">
+            <div class="play-image">
+                <img src="img/chetty.jfif">
+            </div>
+
+            <div class="play-controls">
+                <a href="musictrack.html">
+                    <div class="controls">
+                        <div class="song-name">
+                            <h5>Talk is cheap</h5>
+                            <p>Chet Faker</p>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa fa-step-backward"></i>
+                            <i class="fa fa-play"></i>
+                            <i class="fa fa-step-forward"></i>
+    
+                        </div>
+                    </div>
+    
+                    <div class="music-progress">
+                    <div class="progress">
+                    <div class="progress-bar">
+    
+                    </div>
+                    </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // klik za popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      /* sidebar na 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }</script>
+</body>
+</html>
+
+
